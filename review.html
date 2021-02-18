@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <br />
+        <table width="800" height="50" style="font-size: 16pt;">
+            <tr>
+                <th bgcolor="darkseagreen">
+                    Step 1: Account
+                </th>
+                <th bgcolor="darkseagreen">
+                    Step 2: Personal Details
+                </th>
+                <th bgcolor="cornflowerblue">
+                    Step 3: Your Review
+                </th>
+            </tr>
+        </table>
+        <br />
+        <br>
+        <fieldset align="left">
+            <legend>
+                Your Review
+            </legend>
+
+
+            <p>How did you hear about us?
+                <select name="devices">
+                    <option value="options">Select your option</option>
+                    <option value="radio">Radio</option>
+                    <option value="computer">Computer</option>
+                </select>
+            </p>
+            <p>
+                Would you visit again?
+                <br />
+                <input type="radio" name="services" value="yes" />
+                Yes
+                <input type="radio" name="services" value="no" />
+                No
+                <input type="radio" name="services" value="may be" />
+                Maybe
+            </p>
+            <p>
+                <label for="comment">
+                    Comments:
+                </label>
+                <br>
+                <textarea name="comments" cols="50" rows="4" placeholder="Enter your comment here..."></textarea>
+            </p>
+
+            <p>
+                Documents:
+            </p>
+            <input type="file" name="user-song" />
+            <br>
+            <br>
+
+            <label>
+                <input type="checkbox" name="subscribe" checked="checked" />
+                Sign me up for email updates
+            </label>
+
+            <br>
+            <br>
+
+            <a href="Personal.html">
+                <img src="image/back.png" alt="back" width="120" height="40"></a>
+            <a href="http://www.example.com/profile.php">
+                <img src="image/submit.png" alt="submit" width="120" height="40"></a>                    
+        </fieldset>
+    </center>
+</body>
+
+</html>
